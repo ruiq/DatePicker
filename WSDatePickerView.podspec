@@ -22,7 +22,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Zws-China/DatePicker.git", :tag => "#{s.version}" }
 
 
-  s.source_files  = "WSDatePickerView/*.{h,m,xib}"
+  s.source_files  = "WSDatePickerView/*.{h,m}"
+
+  s.resources = ['WSDatePickerView/*.xib']
   
   s.requires_arc = true
  
